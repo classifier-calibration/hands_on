@@ -1,5 +1,11 @@
 # Hands On
 
+1. Available packages for calibration
+2. Visualisation tools
+3. Classifiers ouptuts
+3. Non-neural demonstrations
+4. Neural demonstrations
+5. The pipeline on how to train and evaluate classifiers and calibrators
 
 ## Background
 
