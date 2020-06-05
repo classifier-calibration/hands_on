@@ -2,10 +2,25 @@
 
 1. Available packages for calibration
 2. Visualisation tools
-3. Classifiers ouptuts
-3. Non-neural demonstrations
-4. Neural demonstrations
-5. The pipeline on how to train and evaluate classifiers and calibrators
+    - Reliability diagram
+    - Calibration maps
+    - Expected Calibration Error
+    - Maximum Calibration Error
+3. Classifier ouptuts
+    - Binary
+    - Ternary
+    - Multiclass
+4. Non-neural demonstrations
+    - Example of calibration
+    - Results after calibration
+5. Neural demonstrations
+    - Output scores from a state-of-the-art Deep Neural Networks (DNNs)
+    - Results after calibration of DNNs
+6. The pipeline on how to train and evaluate classifiers and calibrators
+    - Dataset partitioning for calibration
+    - Calibration evaluation
+    - Statistical tests for calibration
+    - Statistical tests for model comparison
 
 ## Background
 
