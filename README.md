@@ -38,7 +38,17 @@ source venv/bin/activate
 pip install --upgrade pip
 # Install all the required dependencies indicated in the requirements.txt file
 pip install -r requirements.txt
+# Create a kernel with the current virtual environment
+python -m ipykernel install --user --name ClaCal --display-name "ClaCal handson"
 ```
+
+Then you can start a Jupyter Notebook, and load the created kernel to run the
+Hands On.
+
+```
+jupyter notebook
+```
+
 
 ## Repositories with notebooks related to calibration
 
