@@ -1,4 +1,6 @@
-# Hands On
+# Hands On Classifier Calibration
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/classifier-calibration/hands_on/master)
 
 1. Available packages for calibration
 2. Visualisation tools
@@ -25,6 +27,7 @@ Clone the code
 
 ```
 git clone git@github.com:classifier-calibration/hands_on.git
+git submodule update
 ```
 
 This code is working with Python3.6. 
@@ -38,6 +41,7 @@ source venv/bin/activate
 pip install --upgrade pip
 # Install all the required dependencies indicated in the requirements.txt file
 pip install -r requirements.txt
+pip install -e lib/PyCalib
 # Create a kernel with the current virtual environment
 python -m ipykernel install --user --name ClaCal --display-name "ClaCal handson"
 ```
