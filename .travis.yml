@@ -2,6 +2,9 @@ language: python
 python:
   - "3.6"
 
+before_install:
+  - git submodule init 
+  - git submodule update
 # Install dependencies.
 install:
   - pip install -r requirements.txt
