@@ -1,3 +1,3 @@
 [submodule "lib/PyCalib"]
 	path = lib/PyCalib
-	url = git@github.com:perellonieto/PyCalib.git
+	url = https://github.com:perellonieto/PyCalib.git
