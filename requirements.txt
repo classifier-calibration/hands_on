@@ -3,7 +3,8 @@ matplotlib
 scikit-learn
 jupyter
 betacal
-# FIXME jax should be installed inside dirichletcal
+# FIXME jax, jaxlib and autograd should be installed inside dirichletcal
 jax
 jaxlib
+autograd
 ipykernel
