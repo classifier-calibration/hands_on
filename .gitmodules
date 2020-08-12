@@ -1,3 +1,6 @@
 [submodule "lib/PyCalib"]
 	path = lib/PyCalib
 	url = https://github.com/perellonieto/PyCalib
+[submodule "lib/dirichlet_python"]
+	path = lib/dirichlet_python
+	url = https://github.com/dirichletcal/dirichlet_python

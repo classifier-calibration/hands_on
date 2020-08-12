@@ -42,6 +42,7 @@ pip install --upgrade pip
 # Install all the required dependencies indicated in the requirements.txt file
 pip install -r requirements.txt
 pip install -e lib/PyCalib
+pip install -e lib/dirichlet_python
 # Create a kernel with the current virtual environment
 python -m ipykernel install --user --name ClaCal --display-name "ClaCal handson"
 ```

@@ -4,3 +4,4 @@ git submodule init
 git submodule update
 pip install -r requirements.txt
 pip install -e lib/PyCalib
+pip install -e lib/dirichlet_python
