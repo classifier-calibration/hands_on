@@ -17,7 +17,8 @@ The Hands On can be run directly in your webbrowser without these installation s
 Clone this repository
 
 ```
-git clone git@github.com:classifier-calibration/hands_on.git
+git clone https://github.com/classifier-calibration/hands_on.git
+cd hands_on
 git submodule update
 ```
 
