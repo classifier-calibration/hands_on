@@ -4,15 +4,14 @@
 
 1. Installation (optional)
 2. Hands On
-    1. Visualisation and evaluation tools
-    2. Classifier ouptuts and calibrators
-    3. The pipeline on how to train and evaluate classifiers and calibrators
 3. Available packages for calibration
 4. Additional material
 
 ## Installation (optional)
 
-The Hands On can be run directly in your webbrowser without these installation steps. However, for those who prefer to run the code in your local machine follow the next steps:
+The Hands On can be run directly in your webbrowser with no installation (go to section Hands On). However, if you want to run the Hands On code in your own machine follow the next steps.
+
+The following instructions has been tested in a Linux machine with Ubuntu 18.04 and Python 3.6. If you know how to install in other Operating systems feel free to add the information in a pull request. It is possible that the code does not work on Windows (the Dirichlet calibration library uses Jax which does not support natively Windows).
 
 Clone this repository
 
@@ -51,19 +50,9 @@ jupyter notebook
 The hands on contains the following sections
 
 1. Visualisation and evaluation tools
-    - Reliability diagram
-    - Reliability diagram gaps
-    - Expected Calibration Error
-    - Maximum Calibration Error
-    - Calibration maps
-2. Classifier ouptuts and calibrators
-    - Binary
-    - Ternary
-3. The pipeline on how to train and evaluate classifiers and calibrators
-    - Dataset partitioning for calibration
-    - Calibration evaluation
-    - Statistical tests for calibration
-    - Statistical tests for model comparison
+2. How to train a calibrator
+3. Examples of classifiers and calibrators
+4. How to compare calibrator performance
         
 In order to start the Hands On follow this link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/classifier-calibration/hands_on/master)
 
