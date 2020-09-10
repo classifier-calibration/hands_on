@@ -47,14 +47,20 @@ jupyter notebook
 
 ## Hands On
 
-The hands on contains the following sections
+The hands on is divided into the following sections
 
-1. Visualisation and evaluation tools
-2. How to train a calibrator
+1. [Visualisation and evaluation tools](https://github.com/classifier-calibration/hands_on/blob/master/notebooks/1_visualisation_tools.ipynb)
+2. [How to train a calibrator](https://github.com/classifier-calibration/hands_on/blob/master/notebooks/2_training_a_calibrator.ipynb)
 3. Examples of classifiers and calibrators
-4. How to compare calibrator performance
+    1. [Binary](https://github.com/classifier-calibration/hands_on/blob/master/notebooks/3_binary_examples.ipynb)
+    2. [Ternary](https://github.com/classifier-calibration/hands_on/blob/master/notebooks/3_ternary_examples.ipynb)
+4. [How to compare calibrator performance](https://github.com/classifier-calibration/hands_on/blob/master/notebooks/4_pipeline_train_evaluate.ipynb)
         
-In order to start the Hands On follow this link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/classifier-calibration/hands_on/master)
+There are three options to run the Hands On:
+
+1. Interactive in your computer: Follow the previous installation steps
+2. Interactive in your webbrowser with Blinder by clicking the following button [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/classifier-calibration/hands_on/master)
+3. Static Notebooks by clicking in each of the previosuly listed sections.
 
 ## Available packages for calibration
 
