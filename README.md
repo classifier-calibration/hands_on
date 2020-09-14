@@ -36,7 +36,7 @@ The following instructions has been tested in a Linux machine with Ubuntu 18.04 
 Clone this repository
 
 ```
-git clone https://github.com/classifier-calibration/hands_on.git
+git clone --recurse-submodules https://github.com/classifier-calibration/hands_on.git
 cd hands_on
 git submodule update
 ```
