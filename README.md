@@ -65,6 +65,20 @@ Hands On.
 jupyter notebook
 ```
 
+### Dockerfile (optional)
+Running Notebooks on a Docker container.
+```bash
+git clone --recurse-submodules https://github.com/classifier-calibration/hands_on.git
+cd hands_on
+# build docker image from Dockerfile
+export APPUSER=appuser
+export IMGNAME_VER=clacal_hands_on:latest
+docker build . -t $IMGNAME_VER
+# run a container from new image
+docker run --rm --name clacal -d -v "$PWD":/home/$APPUSER/data -p 8889:8889 $IMGNAME_VER
+# Open browser to http://localhost:8889 (pass: clacal2020)
+``` 
+
 ## Available packages for calibration
 
 - Scikit-learn:
